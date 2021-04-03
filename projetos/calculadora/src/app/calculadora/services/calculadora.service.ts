@@ -1,7 +1,7 @@
-/* 
+/** 
 * Serviço responsável por executar as operações da calculadora
 * @author Fernando Cruz <nando33_2005@hotmail.com>
-*@since 1.0.0
+* @since 1.0.0
 */
 import { Injectable } from '@angular/core';
 
@@ -20,7 +20,7 @@ export class CalculadoraService {
 
   constructor() { }
 
-  /*
+  /**
   * Método que calcula um peração matemática dado dois númeoros.
   * Suporta as operações soma, subtração, divisão e multiplicação.
   * 
